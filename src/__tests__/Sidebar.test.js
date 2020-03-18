@@ -7,7 +7,7 @@ import configureStore from "redux-mock-store";
 import Sidebar from "../Sidebar";
 
 // Actions
-import { addAuthor } from "../redux/actionCreators";
+import { addAuthor } from "../store/actionCreators";
 
 // Mocks
 import { fakeAuthor } from "../testUtils";
